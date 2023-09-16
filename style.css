@@ -1,0 +1,92 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.font-1{font-family: 'Architects Daughter', cursive;}
+
+#logo-name{border: none;}
+
+body{background-color: #112D4E;}
+
+.bg-image{
+    background-image: url(./assets/night-view.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.color-1{color: #F9F7F7;}
+
+.color-2{color: #DBE2EF ;}
+
+.color-3{color: #3F72AF;}
+
+.color-4{color: #112D4E;}
+
+.bg-color-1{background-color:#112D4E ;}
+
+.bg-color-2{background-color: #3F72AF ;}
+
+.header-title{
+    text-align: center;
+    padding: 10px;
+    line-height: 80px; 
+    font-size: 70px;
+    display: block;
+    font-family: 'Sacramento', cursive;
+}
+
+.header-title-2{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-me{
+    height: 100vh;
+}
+
+#about{
+    font-family: 'Lato', sans-serif;
+}
+
+.pp-img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.my-skills{
+    
+    font-family: 'Lato', sans-serif;
+}
+
+.custom-card {
+
+    height: 400px; /* Kartların yüksekliği */
+}
+
+.projects{
+    
+    font-family: 'Lato', sans-serif;
+}
+
+.icons{
+    border-radius: 15px;
+}
+
+.contact-me{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.footer{
+    font-family: 'Lato', sans-serif;
+}
+
+#footer-name{
+    color: lime;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    /* önceden belirtilmiş font-size'ın 1.6 katı */
+    line-height: 1.5;
+    /* Satır aralarındaki yükselik*/
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    
+    
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+   
+}
+
+header {
+    height: 46rem;   
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header .pg-picture {
+    position: absolute;
+    background-image: url(pictures/photographer.jpg);
+    background-size: cover; /* background-image ile tanımlanan resmin boyutlarını tanımlamamıza yarar*/
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1; /* Resmin sayfa katmanını bir alt satıra yolladık böylece yazılar daha net okunur ve tıklanabilir oldu */
+
+}
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li {
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+
+#section-c {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+
+#section-d .box {
+    padding: 5rem; 
+    
+}
+
+#section-d .box:first-child {
+    background-color: darkslategray;
+   height: 325px;
+}
+
+#section-d .box:last-child {
+    background-color: #333;
+    
+    height: 325px;
+}
+
+
+footer{
+    padding: 4rem;
+    background-color: black;
+    
+}
+footer a{
+    color: yellowgreen;
+}
+
+@media screen and (min-width:800px) {
+
+   html {
+    font-size: 9px;
+   }
+    
+}
+
+@media screen and (min-width:1200px) {
+
+    html {
+        font-size: 11px;
+    }
+
+    #section-b li  {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+        
+        
+    }
+
+   
+    
+}
